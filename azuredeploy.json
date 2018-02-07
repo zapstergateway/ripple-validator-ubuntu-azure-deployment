@@ -215,7 +215,7 @@
                "name":"config-validator",
                "location":"[resourceGroup().location]",
                "dependsOn":[
-                  "[concat('Microsoft.Compute/virtualMachines/', concat(variables('vmName'),copyindex()))]"
+                  "[concat('Microsoft.Compute/virtualMachines/', variables('vmName'))]"
                ],
                "tags":{
                   "displayName":"configure-validator"
