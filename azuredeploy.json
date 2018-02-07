@@ -4,7 +4,7 @@
    "parameters":{
       "adminUsername":{
          "type":"string",
-		 "deafultValue": "ripple-validator",
+		 "defaultValue": "ripple-validator",
          "minLength":5,
          "metadata":{
             "description":"Admin username for the Virtual Machine."
@@ -18,7 +18,7 @@
       },
       "vmSize":{
          "type":"string",
-		 "deafultValue": "Standard_DS2_v2",
+		 "defaultValue": "Standard_DS2_v2",
          "metadata":{
             "description":"Size of the Virtual Machine that will be deployed."
          }
