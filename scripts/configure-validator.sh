@@ -40,3 +40,7 @@ sudo echo $token | tr " " "\n" >> ~/rippled.cfg
 sudo cp ~/rippled.cfg /etc/opt/ripple/rippled.cfg 
 sudo rm ~/rippled.cfg
 
+# Start rippled service
+echo "Start rippled service"
+sudo systemctl start rippled
+
