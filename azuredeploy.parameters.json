@@ -9,7 +9,7 @@
             "value": "sshkey"
         },
         "vmSize": {
-            "value": "Standard_DS2_v2"
+            "value": "Standard_DS12_v2_Promo"
         }
     }
 }
